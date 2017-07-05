@@ -31,20 +31,4 @@ public class PassingCars {
     	assertTrue(solution(0, 11, 3) == 4);
     }
     
-
-/**
- * .long passingCarCounter = 0;
-........long incrementer = 0;
-........for (int element : A) {
-...........if (element == 0) {
-................incrementer++;
-...........} else if (element == 1) {
-................passingCarCounter = passingCarCounter + incrementer;
-...........}
-........}
-........if (passingCarCounter > 1_000_000_000) {
-...........return -1;
-........}
-........return (int) passingCarCounter;
- */
 }

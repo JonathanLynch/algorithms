@@ -41,9 +41,7 @@ public class Distinct {
 		
 	}
 	
-	
     public static int solution(int[] A) {
-        // write your code in Java SE 8
     	List<Integer> list = IntStream.of(A).boxed().collect(Collectors.toList());
     	Set<Integer> mySet = new HashSet<Integer>(list);
     	return mySet.size();
